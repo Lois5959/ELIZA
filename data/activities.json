@@ -1,0 +1,6837 @@
+[
+  {
+    "name": "Palais des Beaux-Arts",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez palais des beaux-arts dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "LaM - Musée d'Art Moderne",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez lam - musée d'art moderne dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Maison Natale de Charles de Gaulle",
+    "type": "Histoire",
+    "indoor": true,
+    "price": "€",
+    "desc": "Visitez maison natale de charles de gaulle dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Hospice Comtesse",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez hospice comtesse dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Musée d'Histoire Naturelle",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée d'histoire naturelle dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Théâtre du Nord",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à théâtre du nord dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Opéra de Lille",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à opéra de lille dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Cinéma UGC Lille",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à cinéma ugc lille dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Aquarium de Lille",
+    "type": "Loisirs",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Partez à la découverte aquarium de lille dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Zoo de Lille",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte zoo de lille dans le quartier de Fives. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Parc de la Citadelle",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade parc de la citadelle dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Jardin Vauban",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade jardin vauban dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Parc Jean-Baptiste Lebas",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade parc jean-baptiste lebas dans le quartier de Hellemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Bois de Boulogne",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade bois de boulogne dans le quartier de Moulins. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Parc Mosaïc",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade parc mosaïc dans le quartier de République. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Canal de la Deûle (Balade)",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte canal de la deûle (balade) dans le quartier de Fives. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Vieux-Lille (Balade)",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez vieux-lille (balade) dans le quartier de Hellemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Remparts de Lille",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez remparts de lille dans le quartier de Centre. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Dégustation de bières artisanales",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez dégustation de bières artisanales dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Terrasse Grand'Place",
+    "type": "Gastronomie",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Dégustez terrasse grand'place dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Marché de Wazemmes",
+    "type": "Gastronomie",
+    "indoor": false,
+    "price": "€",
+    "desc": "Dégustez marché de wazemmes dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Atelier cuisine nordiste",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Dégustez atelier cuisine nordiste dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Piscine Olympique",
+    "type": "Sport",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Pratiquez piscine olympique dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Patinoire",
+    "type": "Sport",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Pratiquez patinoire dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "cold",
+      "snowy",
+      "rainy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Escalade indoor",
+    "type": "Sport",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Pratiquez escalade indoor dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Yoga en plein air",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez yoga en plein air dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Spa & Hammam",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous spa & hammam dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Site historique",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez site historique dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "L' Marché 54",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez l' marché 54 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Sauna",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous sauna dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "L' Boutique 71",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez l' boutique 71 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Institut 74",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous institut 74 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Patrimoine",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez le patrimoine dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Balade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte balade dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Marché",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez marché dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Théâtre 51",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à théâtre 51 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Visite",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte l' visite dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Escalade 87",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez escalade 87 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Atelier Brocante",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez atelier brocante dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Massage",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous massage dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Atelier Spectacle",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à atelier spectacle dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Centre commercial 31",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez centre commercial 31 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Patrimoine 58",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez patrimoine 58 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Hammam",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous hammam dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Collection",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez l' collection dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Brocante 77",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez brocante 77 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Brocante",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez brocante dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "L' Bois",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade l' bois dans le quartier de Fives. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Vélo 91",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez vélo 91 dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Parc 78",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Profitez d'une balade parc 78 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Foot",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez foot dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "La Antiquités",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez la antiquités dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Découverte 62",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte découverte 62 dans le quartier de Fives. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Restaurant",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez restaurant dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Parc",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade parc dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "L' Festival",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à l' festival dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Antiquités",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez antiquités dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Brasserie",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez brasserie dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Festival",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à festival dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "La Hammam",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous la hammam dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Food truck",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Dégustez food truck dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Espace Découverte 3",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte espace découverte 3 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Institut",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous institut dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Collection",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez collection dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Théâtre",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à théâtre dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Collection 16",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez le collection 16 dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Visite",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte visite dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "La Food truck 63",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez la food truck 63 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Boutique",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez boutique dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Espace Galerie",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez espace galerie dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Le Parc 95",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Profitez d'une balade le parc 95 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Concert plein air",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à concert plein air dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Vélo",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez vélo dans le quartier de Centre. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Vélo 68",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez vélo 68 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Marché 20",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez marché 20 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Le Yoga 1",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez le yoga 1 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Spectacle",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à spectacle dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Sauna 61",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous sauna 61 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "La Marché",
+    "type": "Événement",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Participez à la marché dans le quartier de Lomme. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Monument 4",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez monument 4 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Festival 34",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à festival 34 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Spectacle 6",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à spectacle 6 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Théâtre 49",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à le théâtre 49 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Festival 3",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à espace festival 3 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Foot 21",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Pratiquez foot 21 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Atelier Foot 90",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez atelier foot 90 dans le quartier de République. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Ruines",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez ruines dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Exposition",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez exposition dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Excursion 58",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte excursion 58 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Antiquités 38",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez antiquités 38 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Patrimoine 28",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez patrimoine 28 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Hammam 97",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous hammam 97 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Atelier Ruines 85",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Visitez atelier ruines 85 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Monument 80",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez monument 80 dans le quartier de République. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Natation 31",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez natation 31 dans le quartier de Fives. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "La Site historique 39",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez la site historique 39 dans le quartier de Centre. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Institut 46",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous institut 46 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Église 7",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez église 7 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Marché gourmand",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez marché gourmand dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Espace Brasserie 88",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez espace brasserie 88 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Opéra 54",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à opéra 54 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Atelier Sauna",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous atelier sauna dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "La Visite",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte la visite dans le quartier de Euralille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Atelier Musée 68",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Découvrez atelier musée 68 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Église 50",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez église 50 dans le quartier de République. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Food truck",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez espace food truck dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Atelier Cinéma 34",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à atelier cinéma 34 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Brocante 21",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez brocante 21 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Atelier Festival",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à atelier festival dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Atelier Brasserie 72",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez atelier brasserie 72 dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Tennis 54",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez tennis 54 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Concert",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à concert dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Braderie",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à braderie dans le quartier de Fives. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Ruines 92",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez ruines 92 dans le quartier de Lomme. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Foot",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez l' foot dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Le Antiquités 8",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez le antiquités 8 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Brocante 75",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez brocante 75 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Cinéma",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à cinéma dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Atelier Foire 25",
+    "type": "Événement",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Participez à atelier foire 25 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "L' Promenade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte l' promenade dans le quartier de Moulins. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "L' Massage",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous l' massage dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Atelier Institut 28",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous atelier institut 28 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Église",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez église dans le quartier de Euralille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "La Spa 82",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous la spa 82 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Boutique 48",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez boutique 48 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Espace Antiquités",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez espace antiquités dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Espace Boutique 12",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez espace boutique 12 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Balade 10",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte balade 10 dans le quartier de Centre. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Découverte",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte découverte dans le quartier de Vauban. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Le Balade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte le balade dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Marché gourmand 35",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez marché gourmand 35 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Espace Théâtre",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à espace théâtre dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Collection 45",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez collection 45 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Église 57",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez église 57 dans le quartier de République. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Atelier Vélo",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez atelier vélo dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Square 34",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade square 34 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Atelier Spa 2",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous atelier spa 2 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Spa",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous spa dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "La Marché gourmand",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez la marché gourmand dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Concert plein air 73",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à concert plein air 73 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Atelier Galerie 98",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez atelier galerie 98 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "La Sauna 22",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous la sauna 22 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Espace Bar 14",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez espace bar 14 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "La Marché 46",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à la marché 46 dans le quartier de Moulins. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Église 37",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez église 37 dans le quartier de Fives. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "L' Massage 3",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous l' massage 3 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Espace Foot",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez espace foot dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Opéra 96",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à opéra 96 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Espace Visite 34",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte espace visite 34 dans le quartier de Euralille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Opéra 85",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à opéra 85 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Patrimoine 93",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez patrimoine 93 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Excursion",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte excursion dans le quartier de Moulins. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Spa 72",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous spa 72 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Foire",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Participez à foire dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Spectacle 1",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à spectacle 1 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Visite 3",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte visite 3 dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Yoga 87",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez espace yoga 87 dans le quartier de République. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Musée 90",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée 90 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Festival 14",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à festival 14 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Opéra 98",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à opéra 98 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Atelier Square",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade atelier square dans le quartier de République. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Atelier Découverte 43",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte atelier découverte 43 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Ruines 67",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez ruines 67 dans le quartier de République. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Food truck 41",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez food truck 41 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Jardin",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade jardin dans le quartier de Moulins. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Bois",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade bois dans le quartier de République. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Musée",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Marché 96",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à marché 96 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Concert",
+    "type": "Culture",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Assistez à espace concert dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Espace Ruines",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez espace ruines dans le quartier de Lomme. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Yoga",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez l' yoga dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Spectacle 1",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à le spectacle 1 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Spectacle 51",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à spectacle 51 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "La Château",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez la château dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Ruines 13",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez ruines 13 dans le quartier de Centre. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Découverte 46",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte le découverte 46 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "La Promenade 47",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte la promenade 47 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "L' Concert",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à l' concert dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Atelier Balade 76",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte atelier balade 76 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "L' Concert plein air",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à l' concert plein air dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Exposition 48",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez exposition 48 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Foot 7",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Pratiquez foot 7 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Massage 25",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous massage 25 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Visite 67",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte visite 67 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Le Site historique 4",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez le site historique 4 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Café",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez café dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "L' Foire 49",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Participez à l' foire 49 dans le quartier de République. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "La Jardin",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade la jardin dans le quartier de Centre. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Natation 91",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez natation 91 dans le quartier de Moulins. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Ruines 60",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez la ruines 60 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Espace Découverte 40",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte espace découverte 40 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Massage 78",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous massage 78 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Musée",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez espace musée dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Découverte 26",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte découverte 26 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Foire 8",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à espace foire 8 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Cinéma",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à espace cinéma dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Braderie",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à le braderie dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Restaurant 13",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Dégustez restaurant 13 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "L' Brocante 91",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez l' brocante 91 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Bar",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez bar dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "L' Château",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez l' château dans le quartier de Wazemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Square",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade espace square dans le quartier de Vauban. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Collection 55",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez collection 55 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Atelier Découverte 35",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte atelier découverte 35 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Massage 58",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous massage 58 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "La Église 10",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez la église 10 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Espace Tennis 57",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez espace tennis 57 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Festival 99",
+    "type": "Culture",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Assistez à festival 99 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Massage 80",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous massage 80 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Le Concert plein air",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à le concert plein air dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "La Spa 47",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous la spa 47 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace vert 98",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade espace vert 98 dans le quartier de Centre. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Balade 30",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte balade 30 dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Musée 85",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez musée 85 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "L' Bar",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Dégustez l' bar dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Brocante 75",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez le brocante 75 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Espace Marché 61",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez espace marché 61 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Découverte 46",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte découverte 46 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Spectacle 40",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à spectacle 40 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Food truck 73",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez food truck 73 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Centre commercial 50",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez espace centre commercial 50 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Café 98",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez café 98 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Brasserie 44",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez brasserie 44 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Food truck 97",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez food truck 97 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Café 27",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez café 27 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Visite 50",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte visite 50 dans le quartier de Centre. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Festival",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à le festival dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Cinéma",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à le cinéma dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Massage 5",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous massage 5 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Brocante 46",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez brocante 46 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Visite 44",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte visite 44 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "L' Brocante",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez l' brocante dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Marché 74",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Participez à marché 74 dans le quartier de Fives. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Atelier Jardin 98",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade atelier jardin 98 dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Balade 43",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte balade 43 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Le Musée",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez le musée dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Atelier Concert",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à atelier concert dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Food truck 69",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez food truck 69 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Concert 37",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à concert 37 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Le Théâtre",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à le théâtre dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Brocante 60",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez brocante 60 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "La Visite 79",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte la visite 79 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "La Boutique",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez la boutique dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "La Centre commercial",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez la centre commercial dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Vélo 93",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Pratiquez vélo 93 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Hammam 78",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous hammam 78 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Bois 42",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade bois 42 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "La Institut",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous la institut dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Foot 56",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez foot 56 dans le quartier de Centre. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Exposition",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Découvrez le exposition dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Tennis",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez tennis dans le quartier de Lomme. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Le Spa 18",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous le spa 18 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Galerie",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez galerie dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Cinéma 93",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à cinéma 93 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Parc 95",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade parc 95 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Atelier Hammam",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous atelier hammam dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "L' Marché 7",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à l' marché 7 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Excursion 26",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte espace excursion 26 dans le quartier de République. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Course",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez course dans le quartier de Vauban. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Site historique 90",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez site historique 90 dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Monument",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez monument dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Promenade 58",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte promenade 58 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Atelier Théâtre 73",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à atelier théâtre 73 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "La Boutique 56",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez la boutique 56 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Galerie 63",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez galerie 63 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Espace Brocante",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez espace brocante dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Marché 69",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez marché 69 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Le Brasserie",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez le brasserie dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Parc 23",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade parc 23 dans le quartier de République. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Le Concert 77",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à le concert 77 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Centre commercial",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez centre commercial dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "La Yoga",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez la yoga dans le quartier de Vauban. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "La Parc 16",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade la parc 16 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Le Brocante",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez le brocante dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "L' Musée",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez l' musée dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Atelier Restaurant",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez atelier restaurant dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Vélo 11",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez vélo 11 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Promenade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte promenade dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "L' Escalade",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez l' escalade dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Hammam 12",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous hammam 12 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Patrimoine",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez patrimoine dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Bois 38",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade bois 38 dans le quartier de Fives. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Musée 68",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez musée 68 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Patrimoine 92",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez espace patrimoine 92 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Espace Festival",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à espace festival dans le quartier de Fives. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Le Antiquités 69",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez le antiquités 69 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Atelier Château",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez atelier château dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Bois 57",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade bois 57 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Théâtre 35",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à théâtre 35 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Atelier Excursion",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte atelier excursion dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "La Brasserie",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez la brasserie dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Bar 96",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez bar 96 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Musée 22",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez musée 22 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Braderie 91",
+    "type": "Événement",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Participez à braderie 91 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Le Brocante 57",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez le brocante 57 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Atelier Braderie",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à atelier braderie dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Natation 7",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez natation 7 dans le quartier de République. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Le Centre commercial",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez le centre commercial dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Jardin",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade l' jardin dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Restaurant 23",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez restaurant 23 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Marché gourmand 46",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez marché gourmand 46 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Spa 31",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous spa 31 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Cinéma 47",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Assistez à cinéma 47 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "L' Église 60",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez l' église 60 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Cinéma 9",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à cinéma 9 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Marché",
+    "type": "Événement",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Participez à l' marché dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Visite",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte le visite dans le quartier de Centre. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Concert plein air 98",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à concert plein air 98 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Hammam 17",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous hammam 17 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Musée 64",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée 64 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Institut 22",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous institut 22 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "L' Exposition 16",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez l' exposition 16 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Foire 44",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à foire 44 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Square 93",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade l' square 93 dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Centre commercial 79",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez centre commercial 79 dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "La Hammam 20",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous la hammam 20 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Atelier Site historique",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez atelier site historique dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Musée 72",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez musée 72 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Marché gourmand 72",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Dégustez marché gourmand 72 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Atelier Antiquités",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez atelier antiquités dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "L' Découverte",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte l' découverte dans le quartier de Lomme. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Antiquités 57",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez antiquités 57 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Espace Foot 89",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez espace foot 89 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Institut 21",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous institut 21 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Jardin 25",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade jardin 25 dans le quartier de Vauban. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Foot 9",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez foot 9 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Foot",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez la foot dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "La Course",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez la course dans le quartier de Euralille. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Vélo",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Pratiquez le vélo dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Collection 50",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez collection 50 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Restaurant 36",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez restaurant 36 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Marché 88",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez marché 88 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Foot 34",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez foot 34 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Le Boutique",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Explorez le boutique dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Visite 60",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte visite 60 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Atelier Marché gourmand",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez atelier marché gourmand dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "La Braderie",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à la braderie dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Escalade",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez escalade dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Marché 58",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à marché 58 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Galerie 26",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez galerie 26 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "L' Sauna",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous l' sauna dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Galerie 18",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez galerie 18 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Atelier Balade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte atelier balade dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "La Musée 1",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez la musée 1 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "L' Musée 73",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez l' musée 73 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Foire 5",
+    "type": "Événement",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Participez à foire 5 dans le quartier de Fives. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "La Festival",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à la festival dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Institut 39",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous institut 39 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Site historique 51",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez site historique 51 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Espace Exposition",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez espace exposition dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Atelier Marché 38",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez atelier marché 38 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace vert",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade espace vert dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Course",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez le course dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Braderie 42",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à braderie 42 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Massage 29",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous massage 29 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "La Concert plein air",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Participez à la concert plein air dans le quartier de Moulins. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Food truck 30",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez la food truck 30 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Spectacle 14",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à spectacle 14 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "L' Balade 99",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte l' balade 99 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "La Foot 16",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez la foot 16 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Atelier Marché",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez atelier marché dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Foire 26",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€",
+    "desc": "Participez à foire 26 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Marché",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez espace marché dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Escalade",
+    "type": "Sport",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Pratiquez le escalade dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Le Festival 30",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à le festival 30 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "L' Massage 24",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous l' massage 24 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Espace Spa",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous espace spa dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Balade 74",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte balade 74 dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "L' Exposition 88",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez l' exposition 88 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Monument 87",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez monument 87 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Espace Restaurant 68",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez espace restaurant 68 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "L' Balade 31",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte l' balade 31 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Musée 76",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez musée 76 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Vélo 45",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez vélo 45 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Le Marché",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Explorez le marché dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Square 19",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade square 19 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Sauna 13",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous sauna 13 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Marché 10",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez marché 10 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Concert 92",
+    "type": "Culture",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Assistez à concert 92 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Opéra",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à opéra dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Musée 99",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Découvrez musée 99 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Cinéma 95",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à cinéma 95 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Le Institut",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous le institut dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Musée 81",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée 81 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Collection 22",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Découvrez collection 22 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Festival 27",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à festival 27 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Brocante 73",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Explorez brocante 73 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Concert 44",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à concert 44 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Château",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez château dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Bois 60",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade bois 60 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "La Parc",
+    "type": "Parc",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Profitez d'une balade la parc dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Sauna 43",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous sauna 43 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Visite 97",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte visite 97 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Église 97",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez église 97 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Site historique 26",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez site historique 26 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Le Hammam",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous le hammam dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Festival 37",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à festival 37 dans le quartier de Centre. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Yoga",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez yoga dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Spectacle",
+    "type": "Culture",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Assistez à le spectacle dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Bois",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Profitez d'une balade espace bois dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "L' Institut",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous l' institut dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Cinéma 65",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à cinéma 65 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Visite 74",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte la visite 74 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Antiquités 41",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez antiquités 41 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Jardin 86",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade jardin 86 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Marché 24",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez marché 24 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Café 7",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Dégustez café 7 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "L' Galerie 29",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez l' galerie 29 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Le Foot",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez le foot dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Église 47",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Visitez église 47 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Espace Sauna",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous espace sauna dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Espace Parc",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade espace parc dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "L' Concert plein air 28",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à l' concert plein air 28 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Atelier Ruines",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez atelier ruines dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Restaurant 97",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez restaurant 97 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Excursion",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€",
+    "desc": "Partez à la découverte espace excursion dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Atelier Monument",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez atelier monument dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Espace Exposition 80",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez espace exposition 80 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Atelier Parc",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Profitez d'une balade atelier parc dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Atelier Église",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez atelier église dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Jardin 67",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade jardin 67 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Natation 8",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez natation 8 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Concert plein air 28",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Participez à espace concert plein air 28 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Exposition 79",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez exposition 79 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Promenade 88",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte promenade 88 dans le quartier de République. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "L' Massage 36",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous l' massage 36 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Château 45",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Visitez château 45 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Château",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez espace château dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Atelier Visite 32",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte atelier visite 32 dans le quartier de Centre. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Marché 57",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Explorez marché 57 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Marché gourmand 57",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez marché gourmand 57 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Concert",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à la concert dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Découverte 6",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte découverte 6 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Atelier Opéra",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à atelier opéra dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Café 67",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez café 67 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Bar 22",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Dégustez bar 22 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Église 12",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez le église 12 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Patrimoine 14",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Découvrez patrimoine 14 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "La Sauna",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€",
+    "desc": "Détendez-vous la sauna dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Site historique 72",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Visitez site historique 72 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Atelier Découverte",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte atelier découverte dans le quartier de Centre. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Restaurant 2",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez restaurant 2 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "La Escalade",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez la escalade dans le quartier de Euralille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Jardin 36",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade jardin 36 dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Le Musée 25",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Découvrez le musée 25 dans le quartier de Hellemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Antiquités 70",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€",
+    "desc": "Explorez antiquités 70 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Collection 64",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez collection 64 dans le quartier de République. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "L' Vélo",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez l' vélo dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Espace Collection 55",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Découvrez espace collection 55 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Antiquités 40",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Explorez antiquités 40 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Atelier Institut",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous atelier institut dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Concert 8",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Assistez à concert 8 dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Atelier Visite 82",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte atelier visite 82 dans le quartier de République. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Le Site historique 84",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez le site historique 84 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "L' Église 92",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Visitez l' église 92 dans le quartier de Wazemmes. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Tennis 48",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez tennis 48 dans le quartier de Vieux-Lille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "L' Foot 33",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Pratiquez l' foot 33 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Excursion 70",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte excursion 70 dans le quartier de Euralille. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Bois 74",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade bois 74 dans le quartier de République. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "République"
+  },
+  {
+    "name": "Église 18",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez église 18 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "La Vélo 55",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€",
+    "desc": "Pratiquez la vélo 55 dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "La Jardin 30",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade la jardin 30 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Spa 47",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous spa 47 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Atelier Hammam 40",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Détendez-vous atelier hammam 40 dans le quartier de Fives. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Visite 62",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Partez à la découverte visite 62 dans le quartier de Lille-Sud. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Espace Balade",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "Gratuit",
+    "desc": "Partez à la découverte espace balade dans le quartier de Lomme. Idéal par beau temps. Tarif: Gratuit.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Le Café",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Dégustez le café dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "La Site historique",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€",
+    "desc": "Visitez la site historique dans le quartier de Centre. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Le Square",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Profitez d'une balade le square dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Concert 84",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à concert 84 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Foot 14",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Pratiquez foot 14 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "L' Square 30",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade l' square 30 dans le quartier de Euralille. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Espace Monument",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez espace monument dans le quartier de Moulins. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Atelier Boutique",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Explorez atelier boutique dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vieux-Lille"
+  },
+  {
+    "name": "Spa 45",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous spa 45 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Spectacle 65",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Assistez à spectacle 65 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Patrimoine 25",
+    "type": "Musée",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Découvrez patrimoine 25 dans le quartier de Euralille. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Atelier Promenade 82",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Partez à la découverte atelier promenade 82 dans le quartier de Hellemmes. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Hellemmes"
+  },
+  {
+    "name": "Hammam 72",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous hammam 72 dans le quartier de Wazemmes. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Wazemmes"
+  },
+  {
+    "name": "Spa 29",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous spa 29 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Espace Découverte",
+    "type": "Loisirs",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Partez à la découverte espace découverte dans le quartier de Saint-Maurice. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Musée 5",
+    "type": "Musée",
+    "indoor": true,
+    "price": "€",
+    "desc": "Découvrez musée 5 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Jardin 6",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Profitez d'une balade jardin 6 dans le quartier de Lomme. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "L' Spa",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Détendez-vous l' spa dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Antiquités 37",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€€€",
+    "desc": "Explorez antiquités 37 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €€€€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Spa 11",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous spa 11 dans le quartier de Saint-Maurice. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Saint-Maurice"
+  },
+  {
+    "name": "Braderie 71",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Participez à braderie 71 dans le quartier de Vauban. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "hot",
+      "cold",
+      "snowy"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Le Massage",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous le massage dans le quartier de Centre. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Marché gourmand 18",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez marché gourmand 18 dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Spa 71",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "€",
+    "desc": "Détendez-vous spa 71 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "hot"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "La Restaurant",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez la restaurant dans le quartier de Lille-Sud. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lille-Sud"
+  },
+  {
+    "name": "Marché 29",
+    "type": "Événement",
+    "indoor": false,
+    "price": "€€€",
+    "desc": "Participez à marché 29 dans le quartier de Centre. Idéal par beau temps. Tarif: €€€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Centre"
+  },
+  {
+    "name": "Église 39",
+    "type": "Histoire",
+    "indoor": false,
+    "price": "€€",
+    "desc": "Visitez église 39 dans le quartier de Euralille. Idéal par beau temps. Tarif: €€.",
+    "weather": [
+      "sunny",
+      "cloudy"
+    ],
+    "location": "Euralille"
+  },
+  {
+    "name": "Escalade 69",
+    "type": "Sport",
+    "indoor": false,
+    "price": "€€€€",
+    "desc": "Pratiquez escalade 69 dans le quartier de Fives. Idéal par beau temps. Tarif: €€€€.",
+    "weather": [
+      "sunny",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Spectacle 76",
+    "type": "Culture",
+    "indoor": true,
+    "price": "€",
+    "desc": "Assistez à spectacle 76 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "Jardin 11",
+    "type": "Parc",
+    "indoor": false,
+    "price": "€",
+    "desc": "Profitez d'une balade jardin 11 dans le quartier de Fives. Idéal par beau temps. Tarif: €.",
+    "weather": [
+      "sunny",
+      "hot"
+    ],
+    "location": "Fives"
+  },
+  {
+    "name": "Espace Brocante 59",
+    "type": "Shopping",
+    "indoor": true,
+    "price": "€€",
+    "desc": "Explorez espace brocante 59 dans le quartier de Lomme. Parfait quand il pleut ou fait froid. Tarif: €€.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Lomme"
+  },
+  {
+    "name": "Massage 44",
+    "type": "Bien-être",
+    "indoor": true,
+    "price": "Gratuit",
+    "desc": "Détendez-vous massage 44 dans le quartier de Vauban. Parfait quand il pleut ou fait froid. Tarif: Gratuit.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny",
+      "hot"
+    ],
+    "location": "Vauban"
+  },
+  {
+    "name": "L' Restaurant 84",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez l' restaurant 84 dans le quartier de Moulins. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy"
+    ],
+    "location": "Moulins"
+  },
+  {
+    "name": "Restaurant 12",
+    "type": "Gastronomie",
+    "indoor": true,
+    "price": "€",
+    "desc": "Dégustez restaurant 12 dans le quartier de Vieux-Lille. Parfait quand il pleut ou fait froid. Tarif: €.",
+    "weather": [
+      "rainy",
+      "cloudy",
+      "cold",
+      "snowy",
+      "sunny"
+    ],
+    "location": "Vieux-Lille"
+  }
+]
