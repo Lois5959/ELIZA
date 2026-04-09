@@ -22,7 +22,7 @@ Chatbot intelligent spécialisé sur la ville de Lille, fonctionnant en local av
 
 ```bash
 # Cloner le projet
-git clone <ton-repo>
+git clone git@github.com:EpitechBachelorPromo2028/B-AIA-210-LIL-2-1-eliza-8.git
 cd Eliza-lille
 
 # Installer les dépendances Python
@@ -36,4 +36,4 @@ cp .env.example .env
 
 # Générer les données
 make fetch
-```# B-AIA-210-LIL-2-1-eliza-8
+```
