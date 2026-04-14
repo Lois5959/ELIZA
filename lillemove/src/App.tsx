@@ -116,14 +116,14 @@ const translations: Record<Language, Translation> = {
       noBias: "Algorithme transparent sans biais de recommandation."
     },
     demo: {
-      title: "Découvrez LilleMoove en Action",
+      title: "Découvrez LilleMove en Action",
       subtitle: "Testez une conversation typique avec notre bot",
       placeholder: "Tapez votre message...",
       userMessage: "Je cherche une activité",
       botResponse: "Bonjour ! Il fait actuellement 14°C et il pleut à Lille. Voici deux activités indoor :\n\n🧗 1. Escalade à Climb Up\n-10% avec le code MOOVE10\n📍 Rue de Tournai, Lille\n\n🎾 2. Session Padel au Urban Padel\n-15% avec le code MOOVE10\n📍 Boulevard de la Liberté"
     },
     video: {
-      title: "Découvrez LilleMoove en Action",
+      title: "Découvrez LilleMove en Action",
       subtitle: "Regardez comment le bot transforme votre expérience à Lille",
       step1: "Ajoutez LilleMoove Bot à votre serveur Discord en un clic",
       step2: "Demandez une activité et le bot analyse la météo en temps réel",
@@ -132,7 +132,7 @@ const translations: Record<Language, Translation> = {
     footer: {
       description: "Votre compagnon intelligent pour découvrir Lille, quelle que soit la météo.",
       resources: "Ressources",
-      follow: "Suivez-nous",
+      follow: "Rejoins-nous",
       rights: "Tous droits réservés."
     }
   },
@@ -174,16 +174,16 @@ const translations: Record<Language, Translation> = {
       botResponse: "Hello! It's currently 14°C and raining in Lille. Here are two indoor activities:\n\n🧗 1. Climbing at Climb Up\n-10% with code MOOVE10\n📍 Rue de Tournai, Lille\n\n🎾 2. Padel Session at Urban Padel\n-15% with code MOOVE10\n📍 Boulevard de la Liberté"
     },
     video: {
-      title: "Discover LilleMoove in Action",
+      title: "Discover LilleMove in Action",
       subtitle: "Watch how the bot transforms your experience in Lille",
-      step1: "Add LilleMoove Bot to your Discord server in one click",
+      step1: "Add LilleMove Bot to your Discord server in one click",
       step2: "Ask for an activity and the bot analyzes the weather in real time",
       step3: "Enjoy personalized recommendations with exclusive promo codes"
     },
     footer: {
       description: "Your smart companion to discover Lille, whatever the weather.",
       resources: "Resources",
-      follow: "Follow us",
+      follow: "Join us",
       rights: "All rights reserved."
     }
   }
@@ -234,14 +234,15 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* ==================== HEADER ==================== */}
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0052CC] to-[#10B981] flex items-center justify-center shadow-lg">
-              <Zap className="w-6 h-6 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">LilleMoove</span>
-          </div>
+       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <div className="flex items-center -ml-4 sm:-ml-6">
+        <img
+          src="/Moove.png"
+          alt="LilleMoove"
+          className="h-20 w-auto"
+        />
+      </div>
           
           <div className="flex items-center gap-3 sm:gap-4">
             {/* Language Toggle */}
@@ -269,11 +270,11 @@ export default function App() {
             </div>
 
             {/* Add to Discord Button */}
-            <button className="flex items-center gap-2 bg-[#5865F2] hover:bg-[#4752C4] text-white px-3 sm:px-6 py-2.5 rounded-lg transition-colors text-sm sm:text-base">
+            <a  href="https://discord.com/api/oauth2/authorize?client_id=1489257669721194658&permissions=2048&scope=bot" target="_blank" className="flex items-center gap-2 bg-[#5865F2] hover:bg-[#4752C4] text-white px-3 sm:px-6 py-2.5 rounded-lg transition-colors text-sm sm:text-base">
               <DiscordIcon />
               <span className="hidden sm:inline">{t.hero.cta}</span>
               <span className="sm:hidden">Discord</span>
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -293,7 +294,7 @@ export default function App() {
               transition={{ duration: 0.6 }}
             >
               <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                <Sparkles className="w-4 h-4" />
+                
                 <span className="text-sm">Sport • Culture • Tourisme</span>
               </div>
               
@@ -305,10 +306,13 @@ export default function App() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <motion.button
+                <motion.a
+                  href="https://discord.com/api/oauth2/authorize?client_id=1489257669721194658&permissions=2048&scope=bot"
+                  target="_blank"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="relative group"
+                  
                 >
                   <motion.div
                     animate={{ 
@@ -326,7 +330,7 @@ export default function App() {
                     <DiscordIcon />
                     <span className="font-semibold">{t.hero.cta}</span>
                   </div>
-                </motion.button>
+                </motion.a>
 
                 <button 
                   onClick={() => document.getElementById('video')?.scrollIntoView({ behavior: 'smooth' })}
@@ -356,18 +360,18 @@ export default function App() {
               
               {/* Floating Activity Cards */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
+                initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
                 className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-xl max-w-[200px]"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-10 h-10 rounded-lg bg-[#10B981] flex items-center justify-center">
-                    <Mountain className="w-5 h-5 text-white" />
-                  </div>
                   <div>
-                    <p className="text-sm font-bold text-gray-900">Climb Up</p>
-                    <p className="text-xs text-gray-600">-10% MOOVE10</p>
+                    <img 
+  src="/Moove.png" 
+  alt="LilleMoove" 
+  className="h-16 w-auto"
+/>
                   </div>
                 </div>
               </motion.div>
@@ -498,12 +502,7 @@ export default function App() {
                       <Play className="w-10 h-10 text-white ml-1" />
                     </div>
                     <p className="text-white text-lg font-semibold mb-2">
-                      {language === 'FR' ? 'Votre vidéo tutoriel ici' : 'Your tutorial video here'}
-                    </p>
-                    <p className="text-gray-400 text-sm">
-                      {language === 'FR'
-                        ? 'Remplacez cette section par votre vidéo Discord'
-                        : 'Replace this section with your Discord video'}
+                      {language === 'FR' ? 'Cliquez' : 'Clic'}
                     </p>
                   </div>
                 </div>
@@ -604,10 +603,10 @@ export default function App() {
                 transition={{ delay: 0.5 }}
                 className="pt-4"
               >
-                <button className="w-full bg-[#5865F2] hover:bg-[#4752C4] text-white px-6 py-4 rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg">
+                <a  href="https://discord.com/api/oauth2/authorize?client_id=1489257669721194658&permissions=2048&scope=bot" target="_blank" className="w-full bg-[#5865F2] hover:bg-[#4752C4] text-white px-6 py-4 rounded-xl transition-colors flex items-center justify-center gap-2 shadow-lg">
                   <DiscordIcon />
                   <span className="font-semibold">{t.hero.cta}</span>
-                </button>
+                </a>
               </motion.div>
             </motion.div>
           </div>
@@ -658,7 +657,7 @@ export default function App() {
               </p>
               <div className="mt-4 flex items-center justify-center gap-2 text-sm text-gray-400">
                 <Ticket className="w-4 h-4" />
-                <span>MOOVE10</span>
+                <span>MOVE10</span>
               </div>
             </div>
 
@@ -789,10 +788,14 @@ export default function App() {
             {/* Brand */}
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0052CC] to-[#10B981] flex items-center justify-center">
-                  <Zap className="w-6 h-6 text-white" />
-                </div>
-                <span className="text-xl font-bold">LilleMoove</span>
+                <div>
+                    <img 
+  src="/Moove.png" 
+  alt="LilleMoove" 
+  className="h-10 w-auto"
+/>
+                  </div>
+                <span className="text-xl font-bold">LilleMove</span>
               </div>
               <p className="text-gray-400 text-sm">
                 {t.footer.description}
@@ -826,10 +829,7 @@ export default function App() {
             <div>
               <h4 className="font-bold mb-4">{t.footer.follow}</h4>
               <div className="flex gap-3">
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#0052CC] flex items-center justify-center transition-colors">
-                  <Camera className="w-5 h-5" />
-                </a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#5865F2] flex items-center justify-center transition-colors">
+                <a href="https://discord.com/api/oauth2/authorize?client_id=1489257669721194658&permissions=2048&scope=bot" target="_blank" className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#5865F2] flex items-center justify-center transition-colors" >
                   <DiscordIcon />
                 </a>
               </div>
