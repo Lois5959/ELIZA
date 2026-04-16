@@ -3,12 +3,9 @@ from discord.ext import commands
 from config import DISCORD_TOKEN
 from llm_client import LLMClient
 
-# Configuration du bot
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
-
-# Pour garder la mémoire
 eliza = LLMClient()
 
 @bot.event
@@ -21,7 +18,7 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     """Gère les messages reçus."""
-    # Ignorer les messages du bot lui-même
+    # Ignorer les messages du bot
     if message.author == bot.user:
         return
     
@@ -37,13 +34,23 @@ async def on_message(message):
     
     # Indiquer que le bot réfléchit
     async with message.channel.typing():
-        # Obtenir la réponse via ton LLMClient existant
+        # Obtenir la réponse via ton LLMClient
         response = eliza.query(user_question)
+        
+        # Créer l'embed AVEC la réponse
+        embed = discord.Embed(
+            title="🤖 Eliza",
+            description=response[:2000],  # Discord limite les embeds à 2000 caractères
+            color=0x00ff2a,
+            timestamp=discord.utils.utcnow()
+        )
+        embed.set_footer(text="Réponse générée par Eliza")
+        
+        # Envoyer l'embed via message.channel.send()
+        await message.channel.send(embed=embed)
     
-    # Envoyer la réponse, Discord limite à 2000 caractères
-    await message.channel.send(response[:2000])
+    await bot.process_commands(message)
 
-# Lancement du bot
 if __name__ == "__main__":
     if not DISCORD_TOKEN:
         print("Erreur: DISCORD_TOKEN non configuré dans config.py ou .env")
