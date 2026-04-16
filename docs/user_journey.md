@@ -23,20 +23,21 @@ Lucas ouvre Discord où il a ajouté LilleMoove Bot sur leur serveur commun.
 **Action de l'utilisateur**
 Lucas tape dans le channel Discord :
 ```
-!eliza qu'est-ce qu'on peut faire aujourd'hui ?
+!eliza qu'est-ce qu'on peut faire aujourd'hui à Lille ?
 ```
 
 **Ce que fait le bot**
 - Détecte les mots-clés d'activité
-- Appelle l'API météo → il pleut, 12°C
+- Appelle l'API météo → il fait beau, 19°C
 - Filtre les activités indoor dans sa base de données
 - Génère une réponse via Ollama
 
 **Réponse du bot**
-> Il pleut à Lille (12°C). Voici 3 activités indoor pour aujourd'hui :
-> 🧗 Climb Up — Escalade indoor, rue de Tournai. -10% avec MOOVE10
-> 🎾 Urban Padel — Session padel couverte, bd de la Liberté. -15% avec MOOVE10
-> 🎨 LaM — Musée d'art moderne de Villeneuve-d'Ascq. Entrée 5€ étudiant
+Pour commencer votre journée, nous vous recommandons le marché gourmand 93 à Vieux-Lille, idéal pour déguster de la viande et des légumes frais. Ensuite, visitez l'institut bien-être institut 49 dans le quartier de République où vous pourrez prendre un moment détente.
+
+Si vous préférez une activité plus active, profitez d'une promenade au centre-ville avec sa belle architecture médiévale et ses nombreux musées. Enfin, n'oubliez pas les parcs qui se trouvent près de votre ville, comme le parc du Rempart ou le Parc des Aures pour une pause relaxante.
+
+En fin de journée, vous pouvez passer un agréable moment à la sauna 81 dans le quartier de Lomme. C'est idéal pour détendre les muscles après une journée ensoleillée!
 
 **Émotion**
 😊 Satisfait — réponse rapide et pertinente
@@ -93,16 +94,5 @@ Le lendemain, Lucas retape une question sur les restaurants :
 😄 Fidélisé — le bot devient un réflexe pour planifier ses sorties
 
 ---
-
-## Synthèse du parcours
-
-| Étape | Action | Émotion | Point de friction |
-|---|---|---|---|
-| Déclencheur | S'ennuie par temps de pluie | 😐 Neutre | Manque d'idées |
-| Premier contact | Tape `!eliza` sur Discord | 😊 Curieux | Aucun — déjà sur Discord |
-| Réponse bot | Reçoit 3 suggestions avec promos | 😄 Satisfait | Voudrait plus de détails |
-| Décision | Choisit Climb Up avec code promo | 😄 Content | Doit vérifier les horaires lui-même |
-| Expérience | Va à Climb Up, utilise MOOVE10 | 😄 Très satisfait | Aucun |
-| Retour | Réutilise le bot le lendemain | 😄 Fidélisé | Aucun |
 
 **Insight clé :** Le moment critique est l'étape 2 — la réponse doit être rapide, pertinente et contenir une action concrète (code promo) pour convertir l'intention en sortie réelle.

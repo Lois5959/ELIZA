@@ -39,12 +39,12 @@ async def on_message(message):
         
         # Créer l'embed AVEC la réponse
         embed = discord.Embed(
-            title="🤖 Eliza",
+            title="🤖 LilleMove",
             description=response[:2000],  # Discord limite les embeds à 2000 caractères
             color=0x00ff2a,
             timestamp=discord.utils.utcnow()
         )
-        embed.set_footer(text="Réponse générée par Eliza")
+        embed.set_footer(text="Réponse générée par LilleMove")
         
         # Envoyer l'embed via message.channel.send()
         await message.channel.send(embed=embed)
@@ -56,5 +56,5 @@ if __name__ == "__main__":
         print("Erreur: DISCORD_TOKEN non configuré dans config.py ou .env")
         exit(1)
     
-    print("Lancement du bot Discord Eliza")
+    print("Lancement du bot Discord LilleMove")
     bot.run(DISCORD_TOKEN)

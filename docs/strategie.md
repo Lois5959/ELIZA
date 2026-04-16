@@ -39,8 +39,8 @@
 
 ### Besoins utilisateurs
 
-| Besoin | Description |
-|---|---|
+Besoin | Description :
+
 | Rapidité | Obtenir une suggestion en moins de 30 secondes sans recherche |
 | Pertinence météo | Activité adaptée aux conditions climatiques du moment |
 | Économies | Accès à des réductions et bons plans exclusifs |
@@ -49,8 +49,8 @@
 
 ### Besoins partenaires
 
-| Besoin | Description |
-|---|---|
+Besoin | Description :
+
 | Visibilité ciblée | Être recommandé aux bonnes personnes au bon moment |
 | Trafic supplémentaire | Attirer des clients les jours creux (mauvais temps) |
 | Mesurabilité | Tracker le ROI via les codes promo utilisés |
@@ -59,8 +59,8 @@
 
 ### Solution du chatbot
 
-| Problème | Solution LilleMoove |
-|---|---|
+Problème | Solution LilleMoove :
+
 | Trop de recherche pour trouver une activité | Réponse instantanée via `!eliza` sur Discord |
 | Activités inadaptées à la météo | Filtrage automatique indoor/outdoor selon météo temps réel |
 | Pas de bons plans connus | Base de 500+ activités et restaurants avec codes promo |
@@ -73,8 +73,8 @@
 
 ### KPIs utilisateurs
 
-| Indicateur | Objectif | Mesure |
-|---|---|---|
+Indicateur | Objectif | Mesure :
+
 | Nombre d'utilisateurs actifs/mois | 500 à 6 mois, 2 000 à 12 mois | Logs Discord |
 | Taux de rétention mensuel | > 70% | Utilisateurs qui reviennent chaque mois |
 | Temps moyen de réponse | < 3 secondes | Monitoring serveur |
@@ -83,8 +83,8 @@
 
 ### KPIs partenaires
 
-| Indicateur | Objectif | Mesure |
-|---|---|---|
+Indicateur | Objectif | Mesure :
+
 | Taux de conversion codes promo | > 40% | Codes utilisés / recommandations faites |
 | Nombre de partenaires actifs | 5 à 6 mois, 20 à 12 mois | Contrats signés |
 | Taux de renouvellement partenaires | > 80% | Renouvellements / total partenaires |
@@ -92,8 +92,8 @@
 
 ### KPIs produit
 
-| Indicateur | Objectif | Mesure |
-|---|---|---|
+Indicateur | Objectif | Mesure :
+
 | Disponibilité du bot | > 99% uptime | Monitoring serveur |
 | Activités suggérées par jour | > 350 | Logs LLM |
 | Précision météo | > 95% | Comparaison API / réalité |
@@ -101,8 +101,8 @@
 
 ### KPIs business
 
-| Indicateur | Objectif | Mesure |
-|---|---|---|
+Indicateur | Objectif | Mesure :
+
 | Revenus partenariats | 500€/mois à 6 mois | Facturation |
 | Coût d'acquisition utilisateur | < 2€ | Budget marketing / nouveaux users |
 | NPS (Net Promoter Score) | > 50 | Sondage trimestriel |
