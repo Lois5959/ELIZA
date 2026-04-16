@@ -460,7 +460,7 @@ export default function App() {
 
       {/*  VIDEO TUTO */}
       <section id="video" className="py-16 sm:py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="max-w-8xl mx-auto px-4 sm:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -489,8 +489,8 @@ export default function App() {
               transition={{ delay: 0.2 }}
               className="lg:col-span-2"
             >
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-[#36393f] to-[#2f3136] aspect-video">
-                {/* Video Container */}
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-[#36393f] to-[#2f3136]">
+                {/* Video  */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center px-6">
                     <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#0052CC] to-[#10B981] flex items-center justify-center mx-auto mb-6 shadow-xl">
@@ -501,19 +501,26 @@ export default function App() {
                     </p>
                   </div>
                 </div>
-                {/* Placeholder for actual video - uncomment and add your video URL */}
-                {/*
+                
                 <video
                   controls
-                  className="w-full h-full object-cover"
-                  poster="/path/to/thumbnail.jpg"
+                  className="w-full h-full object-contain"
+                  poster="/logobot2.png"
+                  onPlay={(e) => {
+                  const overlay = e.currentTarget.previousElementSibling as HTMLElement;
+                   if (overlay) {
+                    overlay.style.opacity = '0';
+                    setTimeout(() => {
+                      overlay.style.display = 'none';
+                    }, 300);
+                  }
+                }}
                 >
-                  <source src="/path/to/your/video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
+                  <source src="/tuto2.mp4" type="video/mp4" />
                 </video>
-                */}
+    
               </div>
-              {/* Video Info */}
+              {/* Video info */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -801,19 +808,6 @@ export default function App() {
             <div>
               <h4 className="font-bold mb-4">{t.footer.resources}</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">Documentation</a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    {language === 'FR' ? 'Guide d\'utilisation' : 'User Guide'}
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    {language === 'FR' ? 'Devenir partenaire' : 'Become a partner'}
-                  </a>
-                </li>
                 <li>
                   <a href="#" className="hover:text-white transition-colors">OpenWeather API</a>
                 </li>
