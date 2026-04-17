@@ -1,98 +1,153 @@
-# User Journey — LilleMoove
+# User Journey — Sophie, la jeune professionnelle
 
-**Persona choisi :** Lucas, 21 ans, étudiant à Lille
-**Scénario :** Un samedi après-midi pluvieux, Lucas cherche une activité avec ses amis
+**Persona :** Sophie, 28 ans, chef de projet à Lille
+**Scénario :** Un dimanche matin nuageux, Sophie cherche une activité culturelle pour sa journée
+**Canal :** Discord
+
+---
+
+## Vue d'ensemble
+
+| Phase | Action | Émotion |
+|---|---|---|
+| Déclencheur | Se réveille, regarde la météo | 😐 Indécise |
+| Découverte | Ouvre Discord, voit le bot | 🙂 Curieuse |
+| Interaction | Pose une question à LilleMoove | 😊 Engagée |
+| Décision | Choisit une activité | 😄 Satisfaite |
+| Expérience | Vit la sortie | 😄 Ravie |
+| Retour | Recommande le bot à une amie | 🤩 Fidélisée |
 
 ---
 
 ## Étape 1 — Déclencheur
 
 **Contexte**
-Il est 14h, il pleut sur Lille. Lucas et ses 2 amis sont dans leur coloc et s'ennuient. Quelqu'un propose de sortir mais personne ne sait quoi faire.
+Il est 9h30, dimanche. Sophie se fait un café et regarde par la fenêtre — temps couvert, 14°C. Elle a sa journée libre mais aucune idée de quoi faire. Elle ne veut pas rester chez elle mais n'a pas envie de chercher pendant une heure sur Google.
 
-**Action de l'utilisateur**
-Lucas ouvre Discord où il a ajouté LilleMoove Bot sur leur serveur commun.
+**Pensée**
+> "J'aimerais faire quelque chose de sympa aujourd'hui mais je sais pas quoi..."
 
-**Émotion**
-😐 Neutre — légèrement frustré de ne pas avoir d'idée
+**Émotion :** 😐 Indécise, légèrement frustrée
+
+**Point de friction :** Trop d'options sur internet, pas assez contextualisées à la météo et à Lille
 
 ---
 
-## Étape 2 — Premier contact avec le bot
+## Étape 2 — Découverte du bot
 
-**Action de l'utilisateur**
-Lucas tape dans le channel Discord :
+**Contexte**
+Sophie ouvre Discord pour voir les messages de sa communauté de running. Elle remarque LilleMoove Bot dans la liste des membres en ligne d'un serveur communautaire lillois.
+
+**Action**
+Elle clique sur le bot, voit la description : *"Recommandations d'activités à Lille selon la météo"*. Elle rejoint le channel `#lillemove`.
+
+**Pensée**
+> "Tiens, ça pourrait être utile justement..."
+
+**Émotion :** 🙂 Curieuse, intriguée
+
+**Point de friction :** Elle ne sait pas exactement comment utiliser le bot, hésite sur la commande
+
+---
+
+## Étape 3 — Première interaction
+
+**Action**
+Sophie tape sa première question :
 ```
-!eliza qu'est-ce qu'on peut faire aujourd'hui à Lille ?
+!eliza qu'est-ce qu'il y a d'intéressant à faire aujourd'hui à Lille ?
 ```
 
 **Ce que fait le bot**
-- Détecte les mots-clés d'activité
-- Appelle l'API météo → il fait beau, 19°C
-- Filtre les activités indoor dans sa base de données
-- Génère une réponse via Ollama
+- Détecte la question d'activité générale
+- Appelle l'API météo → temps couvert, 14°C
+- Filtre les activités adaptées (musées, expos, visites indoor/outdoor léger)
+- Génère une réponse personnalisée via Ollama
 
 **Réponse du bot**
-Pour commencer votre journée, nous vous recommandons le marché gourmand 93 à Vieux-Lille, idéal pour déguster de la viande et des légumes frais. Ensuite, visitez l'institut bien-être institut 49 dans le quartier de République où vous pourrez prendre un moment détente.
+> Temps couvert à Lille (14°C), idéal pour les sorties culturelles. Voici 3 suggestions pour aujourd'hui :
+>
+> 🎨 LaM — Musée d'art moderne de Villeneuve-d'Ascq. Expo temporaire en ce moment. Entrée 5€ tarif réduit.
+>
+> 🏛️ Palais des Beaux-Arts — Gratuit le 1er dimanche du mois. L'une des plus grandes collections de France hors Paris.
+>
+> ☕ Vieux-Lille à pied — Balade dans les ruelles historiques + terrasses couvertes. Idéal avant le déjeuner.
 
-Si vous préférez une activité plus active, profitez d'une promenade au centre-ville avec sa belle architecture médiévale et ses nombreux musées. Enfin, n'oubliez pas les parcs qui se trouvent près de votre ville, comme le parc du Rempart ou le Parc des Aures pour une pause relaxante.
+**Pensée**
+> "Oh le Palais des Beaux-Arts est gratuit aujourd'hui, je savais même pas !"
 
-En fin de journée, vous pouvez passer un agréable moment à la sauna 81 dans le quartier de Lomme. C'est idéal pour détendre les muscles après une journée ensoleillée!
+**Émotion :** 😊 Agréablement surprise, engagée
 
-**Émotion**
-😊 Satisfait — réponse rapide et pertinente
+**Point de friction :** Aucun — la réponse est rapide, claire et directement actionnable
 
 ---
 
-## Étape 3 — Approfondissement
+## Étape 4 — Approfondissement
 
-**Action de l'utilisateur**
-Lucas veut en savoir plus sur l'escalade :
+**Action**
+Sophie veut enchaîner avec un repas après la visite :
 ```
-!eliza c'est combien Climb Up ?
-```
-
-**Ce que fait le bot**
-- Reconnaît la question comme hors base de données spécifique
-- Répond avec les infos disponibles et suggère de vérifier sur place
-
-**Émotion**
-🙂 Ok — il aurait voulu plus d'infos mais ça suffit pour décider
-
----
-
-## Étape 4 — Décision
-
-**Action de l'utilisateur**
-Lucas montre la réponse du bot à ses amis dans Discord. Ils décident d'aller à Climb Up et utilisent le code MOOVE10.
-
-**Émotion**
-😄 Content — décision prise en moins de 5 minutes
-
----
-
-## Étape 5 — Expérience partenaire
-
-**Ce qui se passe chez Climb Up**
-- Marc (gérant) voit l'utilisation du code MOOVE10
-- Il note une augmentation des réservations les jours de pluie depuis le partenariat
-
-**Émotion partenaire**
-😄 Satisfait — ROI mesurable, clients supplémentaires
-
----
-
-## Étape 6 — Retour et fidélisation
-
-**Action de l'utilisateur**
-Le lendemain, Lucas retape une question sur les restaurants :
-```
-!eliza un bon resto pas cher près de Wazemmes ?
+!eliza un bon resto pas trop cher près du Palais des Beaux-Arts ?
 ```
 
-**Émotion**
-😄 Fidélisé — le bot devient un réflexe pour planifier ses sorties
+**Réponse du bot**
+> Voici 2 restos à deux pas du Palais des Beaux-Arts :
+>
+> 🍽️ Le Bloempot — Cuisine nordiste créative, cadre chaleureux. ~25€/pers.
+>
+> 🥗 Chez la Vieille — Brasserie traditionnelle lilloise, menus midi à 14€. Parfait après une visite.
+
+**Émotion :** 😄 Contente, sa journée prend forme
 
 ---
 
-**Insight clé :** Le moment critique est l'étape 2 — la réponse doit être rapide, pertinente et contenir une action concrète (code promo) pour convertir l'intention en sortie réelle.
+## Étape 5 — Décision
+
+**Action**
+Sophie décide d'aller au Palais des Beaux-Arts le matin (gratuit) puis déjeuner à Chez la Vieille. Elle note les infos et invite une amie via un message Discord.
+
+**Pensée**
+> "Journée calée en 5 minutes, c'est exactement ce qu'il me fallait."
+
+**Émotion :** 😄 Satisfaite, soulagée
+
+**Point de friction :** Elle aurait aimé un lien direct vers le site du musée pour vérifier les horaires
+
+---
+
+## Étape 6 — Expérience vécue
+
+**Contexte**
+Sophie passe une excellente matinée au musée. Le déjeuner est bon. Elle prend des photos et les poste dans son serveur Discord en mentionnant LilleMoove.
+
+**Émotion :** 😄 Très satisfaite
+
+---
+
+## Étape 7 — Fidélisation et recommandation
+
+**Action**
+Le week-end suivant, Sophie revient spontanément sur le bot pour planifier une sortie running si la météo le permet. Elle recommande aussi LilleMoove à une collègue qui vient d'arriver à Lille.
+
+```
+!eliza est-ce qu'il fera beau samedi pour courir dehors ?
+```
+
+**Émotion :** 🤩 Fidélisée, ambassadrice
+
+---
+
+## Synthèse — Points clés
+
+**Ce qui a fonctionné**
+- Réponse instantanée sans formulaire ni filtre
+- Information inattendue et à valeur ajoutée (gratuit le 1er dimanche)
+- Enchaînement naturel activité → restaurant en une seule conversation
+
+**Ce qui peut être amélioré**
+- Ajouter des liens directs vers les sites officiels
+- Permettre de filtrer par distance ou quartier
+- Notifier proactivement les bons plans du week-end
+
+**Insight clé**
+Sophie ne cherchait pas une app de plus — elle cherchait un conseil rapide d'un "ami qui connaît Lille". LilleMoove répond exactement à ce besoin en s'intégrant dans un outil qu'elle utilise déjà au quotidien.
