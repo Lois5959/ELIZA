@@ -20,7 +20,7 @@ import {
   Play
 } from 'lucide-react';
 import { Camera } from 'lucide-react';
-import { ImageWithFallback } from './components/figma/ImageWithFallback';
+import { ImageWithFallback } from './components/imag/ImageWithFallback';
 
 // langues
 type Language = 'FR' | 'EN';
@@ -828,7 +828,7 @@ export default function App() {
           {/* Bottom Bar */}
           <div className="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm">
             <p className="text-gray-400 text-center sm:text-left">
-              © 2026 LilleMoove. {t.footer.rights}
+              © 2026 LilleMove. {t.footer.rights}
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-gray-400">
               <a href="#" className="hover:text-white transition-colors">
