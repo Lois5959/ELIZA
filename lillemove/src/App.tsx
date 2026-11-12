@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './index.css';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { 
   Zap, 
   Users,
@@ -9,8 +9,6 @@ import {
   Clock,
   Eye,
   Heart,
-  Sparkles,
-  Mountain,
   Compass,
   CheckCircle2,
   ArrowRight,
@@ -19,7 +17,6 @@ import {
   Ticket,
   Play
 } from 'lucide-react';
-import { Camera } from 'lucide-react';
 import { ImageWithFallback } from './components/imag/ImageWithFallback';
 
 // langues
