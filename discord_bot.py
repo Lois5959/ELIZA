@@ -31,6 +31,12 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
+    # !reset : efface l'historique de l'utilisateur (voir docs/Ethical-Assessment.md)
+    if message.content.strip() == "!reset":
+        clients.pop(message.author.id, None)
+        await message.channel.send("Ton historique de conversation a été effacé.")
+        return
+
     # Ignorer si le message ne commence pas par !eliza
     if not message.content.startswith("!eliza"):
         return
@@ -54,7 +60,7 @@ async def on_message(message):
             color=0x00ff2a,
             timestamp=discord.utils.utcnow()
         )
-        embed.set_footer(text="Réponse générée par LilleMove")
+        embed.set_footer(text="Assistant automatique, pas un humain · !reset pour effacer ta conversation")
         
         # Envoyer l'embed via message.channel.send()
         await message.channel.send(embed=embed)
