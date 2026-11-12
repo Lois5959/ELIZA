@@ -35,7 +35,7 @@ class LLMClient:
         if any(kw in lower_msg for kw in ['météo', 'temps', 'pluie', 'soleil', 'beau', 'dehors']):
             weather_data = get_weather()
             if context is None: context = {}
-            context['weather'] = get_weather_recommendation()
+            context['weather'] = get_weather_recommendation(weather_data)
             context['weather_data'] = weather_data
         
         # Restaurants
@@ -53,7 +53,13 @@ class LLMClient:
         user_content = build_prompt(user_message, context)
         self.conversation_history.append({"role": "user", "content": user_content})
         
-        response_text = self._call_ollama_chat()
+        try:
+            response_text = self._call_ollama_chat()
+        except requests.RequestException:
+            # on retire la question pour ne pas garder un échange raté dans l'historique
+            self.conversation_history.pop()
+            return (f"Je n'arrive pas à joindre le modèle ({self.base_url}). "
+                    f"Vérifie qu'Ollama tourne : ollama serve, puis ollama pull {self.model}.")
         
         self.conversation_history.append({"role": "assistant", "content": response_text})
         if len(self.conversation_history) > self.max_history:
@@ -62,25 +68,22 @@ class LLMClient:
         return response_text
     
     def _call_ollama_chat(self):
-        """Appel API vers Ollama."""
-        try:
-            response = self.session.post(
-                f"{self.base_url}/api/chat",
-                json={
-                    "model": self.model,
-                    "messages": [
-                        {"role": "system", "content": get_system_prompt()},
-                        *self.conversation_history
-                    ],
-                    "stream": False,
-                    "options": {"temperature": 0.7, "num_predict": 500}
-                },
-                timeout=120
-            )
-            response.raise_for_status()
-            return response.json().get("message", {}).get("content", "Erreur de réponse.").strip()
-        except Exception as e:
-            return f"Erreur : {str(e)}"
+        """Appel API vers Ollama (lève requests.RequestException si le serveur ne répond pas)."""
+        response = self.session.post(
+            f"{self.base_url}/api/chat",
+            json={
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": get_system_prompt()},
+                    *self.conversation_history
+                ],
+                "stream": False,
+                "options": {"temperature": 0.7, "num_predict": 500}
+            },
+            timeout=120
+        )
+        response.raise_for_status()
+        return response.json().get("message", {}).get("content", "Erreur de réponse.").strip()
     
     def clear_history(self):
         self.conversation_history = []

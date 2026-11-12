@@ -32,8 +32,9 @@ def load_restaurants():
     if not RESTAURANTS_FILE.exists():
         return []
     try:
-        return json.load(open(RESTAURANTS_FILE, "r", encoding="utf-8"))
-    except:
+        with open(RESTAURANTS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
         return []
 
 

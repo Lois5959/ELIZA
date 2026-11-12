@@ -1,3 +1,5 @@
+import asyncio
+
 import discord
 from discord.ext import commands
 from config import DISCORD_TOKEN
@@ -6,7 +8,14 @@ from llm_client import LLMClient
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
-eliza = LLMClient()
+# Une conversation par utilisateur : chacun garde son propre historique.
+clients = {}
+
+
+def get_client(user_id):
+    if user_id not in clients:
+        clients[user_id] = LLMClient()
+    return clients[user_id]
 
 @bot.event
 async def on_ready():
@@ -34,13 +43,14 @@ async def on_message(message):
     
     # Indiquer que le bot réfléchit
     async with message.channel.typing():
-        # Obtenir la réponse via ton LLMClient
-        response = eliza.query(user_question)
+        # L'appel à Ollama peut durer plusieurs secondes : on le lance dans un thread
+        # pour ne pas bloquer le bot (il continue de répondre aux autres salons).
+        response = await asyncio.to_thread(get_client(message.author.id).query, user_question)
         
         # Créer l'embed AVEC la réponse
         embed = discord.Embed(
             title="🤖 LilleMove",
-            description=response[:2000],  # Discord limite les embeds à 2000 caractères
+            description=response[:4096],  # limite Discord pour la description d'un embed
             color=0x00ff2a,
             timestamp=discord.utils.utcnow()
         )

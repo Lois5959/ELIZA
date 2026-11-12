@@ -31,6 +31,7 @@ def get_weather():
         icon = data["weather"][0]["icon"]
         
         return {
+            "fallback": False,
             "temperature": temp,
             "description": desc,
             "is_rainy": "pluie" in desc or "rain" in icon,
@@ -49,15 +50,21 @@ def _fallback_weather():
         "description": "couvert",
         "is_rainy": False,
         "is_sunny": False,
-        "is_cloudy": True
+        "is_cloudy": True,
+        "fallback": True,  # météo par défaut, pas une vraie mesure
     }
 
 
-def get_weather_recommendation():
-    """Retourne une phrase de recommandation avec la température en °C."""
-    w = get_weather()
+def get_weather_recommendation(weather_data=None):
+    """Retourne une phrase de recommandation avec la température en °C.
+
+    weather_data évite un deuxième appel à l'API quand la météo vient d'être récupérée.
+    """
+    w = weather_data or get_weather()
     temp = w["temperature"]
     
+    if w.get("fallback"):
+        return "Météo en direct indisponible : je ne connais pas le temps qu'il fait à Lille."
     if w["is_rainy"]:
         return f"Il pleut à Lille ({temp}°C). Privilégiez les activités en intérieur."
     elif w["is_sunny"]:
