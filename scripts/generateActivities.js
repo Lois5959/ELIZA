@@ -50,12 +50,23 @@ const PRICE_RANGES = ["Gratuit", "€", "€", "€€", "€€", "€€€", 
 
 const WEATHER_TAGS = ["rainy", "sunny", "cloudy", "cold", "hot", "snowy"];
 
+// Générateur pseudo-aléatoire avec graine : `make fetch` produit toujours les mêmes données.
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const random = mulberry32(Number(process.env.SEED || 42));
+
 function randomElement(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(random() * arr.length)];
 }
 
 function randomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(random() * (max - min + 1)) + min;
 }
 
 function generateWeatherTags(indoor, category) {
@@ -63,21 +74,21 @@ function generateWeatherTags(indoor, category) {
     // Activités dedans quand il pleut, fait froid, neige
     const tags = ["rainy", "cloudy", "cold", "snowy"];
     // Certaines sont bien par beau temps
-    if (Math.random() > 0.5) tags.push("sunny");
-    if (Math.random() > 0.7) tags.push("hot");
+    if (random() > 0.5) tags.push("sunny");
+    if (random() > 0.7) tags.push("hot");
     return tags;
   } else {
     // Activités dehors quand il fait beau
     const tags = ["sunny"];
-    if (Math.random() > 0.3) tags.push("cloudy");
-    if (Math.random() > 0.6) tags.push("hot");
+    if (random() > 0.3) tags.push("cloudy");
+    if (random() > 0.6) tags.push("hot");
     // Activités d'hiver
-    if (Math.random() > 0.8) tags.push("cold", "snowy");
+    if (random() > 0.8) tags.push("cold", "snowy");
     return tags;
   }
 }
 
-function generateDescription(name, category, location, indoor, price) {
+function generateDescription(name, category, location, indoor, price, properName = false) {
   const intro = {
     "Musée": "Découvrez",
     "Parc": "Profitez d'une balade",
@@ -95,7 +106,8 @@ function generateDescription(name, category, location, indoor, price) {
     ? "Parfait quand il pleut ou fait froid." 
     : "Idéal par beau temps.";
   
-  return `${intro[category] || "Découvrez"} ${name.toLowerCase()} ${location ? `dans le quartier de ${location}` : "à Lille"}. ${weatherTip} Tarif: ${price}.`;
+  const label = properName ? name : name.toLowerCase();  // garde la majuscule des vrais lieux
+  return `${intro[category] || "Découvrez"} ${label} ${location ? `dans le quartier de ${location}` : "à Lille"}. ${weatherTip} Tarif: ${price}.`;
 }
 
 function generateActivities(count = 500) {
@@ -109,9 +121,10 @@ function generateActivities(count = 500) {
       type: act.category,
       indoor: act.indoor,
       price: act.price,
-      desc: generateDescription(act.name, act.category, randomElement(LOCATIONS), act.indoor, act.price),
+      // lieux réels : on ne leur invente pas de quartier
+      desc: generateDescription(act.name, act.category, null, act.indoor, act.price, true),
       weather: act.tags,
-      location: randomElement(LOCATIONS)
+      location: "Lille"
     });
     usedNames.add(act.name);
   }
@@ -128,8 +141,9 @@ function generateActivities(count = 500) {
     let name;
     let suffix = "";
     do {
-      suffix = Math.random() > 0.6 ? ` ${randomInt(1, 99)}` : "";
-      const prefix = Math.random() > 0.7 ? randomElement(["Le", "La", "L'", "Atelier", "Espace"]) + " " : "";
+      suffix = random() > 0.6 ? ` ${randomInt(1, 99)}` : "";
+      const hasArticle = /^(Le|La|Les|L') /.test(baseName) || baseName.startsWith("L'");
+      const prefix = !hasArticle && random() > 0.7 ? randomElement(["Atelier ", "Espace "]) : "";
       name = `${prefix}${baseName}${suffix}`.trim();
     } while (usedNames.has(name));
     usedNames.add(name);

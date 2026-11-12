@@ -35,12 +35,23 @@ const STREETS_LILLE = [
 
 const QUARTIERS = ["Vieux-Lille", "Centre", "Wazemmes", "Lille-Sud", "Moulins", "Fives", "Hellemmes", "Lomme"];
 
+// Générateur pseudo-aléatoire avec graine : `make fetch` produit toujours les mêmes données.
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const random = mulberry32(Number(process.env.SEED || 42));
+
 function randomElement(arr) {
-  return arr[Math.floor(Math.random() * arr.length)];
+  return arr[Math.floor(random() * arr.length)];
 }
 
 function randomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(random() * (max - min + 1)) + min;
 }
 
 function generateRestaurants(count = 500) {
@@ -55,8 +66,10 @@ function generateRestaurants(count = 500) {
     let name;
     let suffix = "";
     do {
-      suffix = Math.random() > 0.5 ? ` ${randomInt(1, 99)}` : "";
-      const prefix = Math.random() > 0.7 ? randomElement(["Le", "La", "L'", "Chez"]) + " " : "";
+      suffix = random() > 0.5 ? ` ${randomInt(1, 99)}` : "";
+      // pas de préfixe si le nom en a déjà un (évite « L' La Table »)
+      const hasArticle = /^(Le|La|L'|El|Casa|Chez) /.test(baseName) || baseName.startsWith("L'");
+      const prefix = !hasArticle && random() > 0.7 ? randomElement(["Le ", "La ", "Chez "]) : "";
       name = `${prefix}${baseName}${suffix}`.trim();
     } while (usedNames.has(name));
     usedNames.add(name);
@@ -68,7 +81,7 @@ function generateRestaurants(count = 500) {
     
     const openHour = randomInt(10, 12);
     const closeHour = randomInt(21, 23);
-    const openDays = Math.random() > 0.3 
+    const openDays = random() > 0.3 
       ? [0,1,2,3,4,5,6] 
       : [1,2,3,4,5,6]; // Fermé le dimanche
 
@@ -76,7 +89,7 @@ function generateRestaurants(count = 500) {
       name: name,
       cuisine: cuisine.type,
       ambiance: ambiance,
-      indoor: Math.random() > 0.2,
+      indoor: random() > 0.2,
       price_range: price,
       open_hour: openHour,
       close_hour: closeHour,
